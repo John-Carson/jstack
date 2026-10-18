@@ -1,0 +1,15 @@
+{
+  "name": "jstack",
+  "description": "jstack: seven skills for coding agents.",
+  "owner": {
+    "name": "John Carson",
+    "url": "https://github.com/John-Carson"
+  },
+  "plugins": [
+    {
+      "name": "jstack",
+      "source": "./",
+      "description": "Seven skills for coding agents: craft, taste, explain, design, diagnose, refine, and ship."
+    }
+  ]
+}

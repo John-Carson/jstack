@@ -1,0 +1,10 @@
+{
+  "name": "jstack",
+  "description": "Seven skills for coding agents: craft, taste, explain, design, diagnose, refine, and ship.",
+  "version": "1.0.0",
+  "author": { "name": "John Carson", "url": "https://github.com/John-Carson" },
+  "homepage": "https://github.com/John-Carson/jstack",
+  "repository": "https://github.com/John-Carson/jstack",
+  "license": "MIT",
+  "keywords": ["skills", "coding", "review", "debugging", "design", "ui", "prose"]
+}
