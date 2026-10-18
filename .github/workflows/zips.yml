@@ -1,0 +1,15 @@
+name: zips
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  current:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Zips match the skills
+        run: |
+          python3 scripts/zip-skills.py
+          git diff --exit-code --stat -- zips || { echo "Run python3 scripts/zip-skills.py and commit zips/"; exit 1; }

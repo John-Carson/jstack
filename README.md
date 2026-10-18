@@ -41,7 +41,11 @@ Claude Code reads `~/.claude/skills`. Codex, OpenCode, and Pi read `~/.agents/sk
 
 ### claude.ai
 
-Download the zips from the [latest release](https://github.com/John-Carson/jstack/releases/latest). Upload each one in Settings > Capabilities > Skills.
+Upload each zip in [`zips/`](zips/) under Settings > Capabilities > Skills. Each [release](https://github.com/John-Carson/jstack/releases/latest) also has them.
+
+## Edit a skill
+
+After you change a file in `skills/`, run `python3 scripts/zip-skills.py` and commit `zips/` with it. The build is byte for byte, and CI fails when a zip does not match its skill.
 
 ## Make them load every time
 
